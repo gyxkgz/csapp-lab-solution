@@ -1,0 +1,165 @@
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Include your name and ID here.
+#
+# Describe how and why you modified the baseline code.
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+
+##################################################################
+# You can modify this portion
+	# Loop header
+	#xorq %rax,%rax		# count = 0;
+	iaddq $-9,%rdx
+	jl BR 
+Loop9:
+	mrmovq (%rdi), %r10	# read val from src...
+	mrmovq 8(%rdi), %r11	# read val from src...
+	rmmovq %r10, (%rsi)	# ...and store it to dst
+	andq %r10, %r10		# val <= 0?
+	jle n1
+	iaddq $1,%rax 	# count++
+n1:
+	mrmovq 16(%rdi), %r10	# read val from src...
+	rmmovq %r11, 8(%rsi)	# ...and store it to dst
+	andq %r11, %r11		# val <= 0?
+	jle n2
+	iaddq $1,%rax 	# count++
+n2:
+	mrmovq 24(%rdi), %r11	# read val from src...
+	rmmovq %r10, 16(%rsi)	# ...and store it to dst
+	andq %r10, %r10		# val <= 0?
+	jle n3
+	iaddq $1,%rax 	# count++
+n3:
+	mrmovq 32(%rdi), %r10	# read val from src...
+	rmmovq %r11, 24(%rsi)	# ...and store it to dst
+	andq %r11, %r11		# val <= 0?
+	jle n4
+	iaddq $1,%rax 	# count++
+n4:
+	mrmovq 40(%rdi), %r11	# read val from src...
+	rmmovq %r10, 32(%rsi)	# ...and store it to dst
+	andq %r10, %r10		# val <= 0?
+	jle n5
+	iaddq $1,%rax 	# count++
+n5:
+	mrmovq 48(%rdi), %r10	# read val from src...
+	rmmovq %r11, 40(%rsi)	# ...and store it to dst
+	andq %r11, %r11		# val <= 0?
+	jle n6
+	iaddq $1,%rax 	# count++
+n6:
+	mrmovq 56(%rdi), %r11	# read val from src...
+	rmmovq %r10, 48(%rsi)	# ...and store it to dst
+	andq %r10, %r10		# val <= 0?
+	jle n7
+	iaddq $1,%rax 	# count++
+n7:
+	mrmovq 64(%rdi), %r10	# read val from src...
+	rmmovq %r11, 56(%rsi)	# ...and store it to dst
+	andq %r11, %r11		# val <= 0?
+	jle n8
+	iaddq $1,%rax 	# count++
+n8:
+	rmmovq %r10, 64(%rsi)	# ...and store it to dst
+	andq %r10, %r10		# val <= 0?
+	jle n9
+	iaddq $1,%rax 	# count++
+n9:
+	iaddq $72,%rdi
+	iaddq $72,%rsi
+	iaddq $-9,%rdx
+	jge Loop9		# 
+
+BR:
+	iaddq $6,%rdx
+	jl Left
+	jg Right
+	je	L3
+	
+L45:
+	iaddq $1,%rdx
+	jl L4
+	jmp L5
+Left:
+	iaddq $2,%rdx
+	je	L1
+	jg	L2	
+	ret
+Right:
+	iaddq $-3,%rdx
+	jl	L45
+	je	L6
+	iaddq $-2,%rdx
+	jl L7
+	mrmovq 56(%rdi), %r9	# read val from src...
+	rmmovq %r9,56(%rsi)
+	andq %r9, %r9		# val <= 0?
+L7:
+	mrmovq 48(%rdi), %r8	# read val from src...
+	jle L71 
+	iaddq $1,%rax 	# count++
+L71:
+	rmmovq %r8,48(%rsi)
+	andq %r8, %r8		# val <= 0?
+L6:
+	mrmovq 40(%rdi), %r9	# read val from src...
+	jle L61 
+	iaddq $1,%rax 	# count++
+L61:
+	rmmovq %r9,40(%rsi)
+	andq %r9, %r9		# val <= 0?
+L5:
+	mrmovq 32(%rdi), %r8	# read val from src...
+	jle L51
+	iaddq $1,%rax 	# count++
+L51:
+	rmmovq %r8,32(%rsi)
+	andq %r8, %r8		# val <= 0?
+L4:
+	mrmovq 24(%rdi), %r9	# read val from src...
+	jle L41
+	iaddq $1,%rax 	# count++
+L41:
+	rmmovq %r9,24(%rsi)
+	andq %r9, %r9		# val <= 0?
+L3:
+	mrmovq 16(%rdi), %r8	# read val from src...
+	jle L31
+	iaddq $1,%rax 	# count++
+L31:
+	rmmovq %r8,16(%rsi)
+L2:
+	mrmovq 8(%rdi), %r9	# read val from src...
+	andq %r8, %r8		# val <= 0?
+	jle L21
+	iaddq $1,%rax 	# count++
+L21:
+	rmmovq %r9,8(%rsi)
+	andq %r9, %r9		# val <= 0?
+L1:
+	mrmovq (%rdi), %r8	# read val from src...
+	jle L11
+	iaddq $1,%rax 	# count++
+L11:
+	rmmovq %r8,(%rsi)
+	andq %r8, %r8		# val <= 0?
+	jle  Done
+	iaddq $1,%rax 	# count++
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

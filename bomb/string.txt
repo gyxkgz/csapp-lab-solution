@@ -1,0 +1,417 @@
+    238 /lib64/ld-linux-x86-64.so.2
+    28d &i#P`
+    5c9 __gmon_start__
+    5d8 libc.so.6
+    5e2 socket
+    5e9 fflush
+    5f0 strcpy
+    5f7 __printf_chk
+    604 exit
+    609 fopen
+    60f __isoc99_sscanf
+    61f connect
+    627 signal
+    62e puts
+    633 __stack_chk_fail
+    644 stdin
+    64a strtol
+    651 fgets
+    657 __errno_location
+    668 read
+    66d __fprintf_chk
+    67b stdout
+    682 __memmove_chk
+    690 __ctype_b_loc
+    69e getenv
+    6a5 stderr
+    6ac alarm
+    6b2 gethostbyname
+    6c0 __memcpy_chk
+    6cd close
+    6d3 sleep
+    6d9 __sprintf_chk
+    6e7 __libc_start_main
+    6f9 write
+    6ff GLIBC_2.3
+    709 GLIBC_2.7
+    713 GLIBC_2.3.4
+    71f GLIBC_2.4
+    729 GLIBC_2.2.5
+    c21 %z$ 
+    c31 %r$ 
+    c41 %j$ 
+    c51 %b$ 
+    c61 %Z$ 
+    c71 %R$ 
+    c81 %J$ 
+    ce5 UH-@7`
+    d15 UH-@7`
+   10f4 AVAUATUSH
+   118a Tt H
+   11ad \$ H
+   11b2 D$(H
+   11b7 t$PH
+   11fa P[]A\A]A^
+   12ce =m$ 
+   1338 ATUSH
+   1361 t%:E
+   139d []A\
+   1575 ***truncH
+   1586 ated***
+   15d3 D$h1
+   1641 D$hdH3
+   168e AWAVAUATUSH
+   1741 D$/A
+   176b H;D$
+   17a0 8[]A\A]A^A_
+   17ac AWAVAUATUSH
+   1813 Error: CI
+   1820 lient unI
+   182e able to I
+   183c create sI
+   184a F ockefA
+   1870 Error: DI
+   187d NS is unI
+   188b able to I
+   1899 resolve I
+   18a7 server aI
+   18b5 F(ddrefA
+   18be F,ssA
+   191e t$0D
+   192f Error: UI
+   193c nable toI
+   194a  connectI
+   1958  to the I
+   1966 F servfA
+   196f F$erA
+   19e3 Error: RI
+   19f0 esult stI
+   19fe ring tooI
+   1a0c  large. I
+   1a1a IncreaseI
+   1a28  SUBMITRI
+   1a36 _MAXBUF
+   1a99 *t#A
+   1b7b Error: CI
+   1b88 lient unI
+   1b96 able to I
+   1ba4 write toI
+   1bb2  the serI
+   1bc0 F(ver
+   1c02 t$@H
+   1c19 Error: CI
+   1c26 lient unI
+   1c34 able to I
+   1c42 read firI
+   1c50 st headeI
+   1c5e r from sI
+   1c6c F0ervefA
+   1c95 L$,H
+   1cb6 D$,A
+   1d05 t$@H
+   1d1c Error: CI
+   1d29 lient unI
+   1d37 able to I
+   1d45 read heaI
+   1d53 ders froI
+   1d61 m serverI
+   1dac t$@H
+   1dc3 Error: CI
+   1dd0 lient unI
+   1dde able to I
+   1dec read staI
+   1dfa tus messI
+   1e08 age fromI
+   1e16  server
+   1e33 t$@L
+   1eef Error: RI
+   1efc esult stI
+   1f0a ring conI
+   1f18 tains anI
+   1f26  illegalI
+   1f34  or unprI
+   1f42 intable I
+   1f50 characteI
+   1f5a F8fA
+   1f5f F@r.A
+   1f86 []A\A]A^A_
+   201a Error: CH
+   2028 lient unH
+   2036 able to H
+   2044 create sH
+   2051 E ockef
+   2078 Error: DH
+   2086 NS is unH
+   2094 able to H
+   20a2 resolve H
+   20b0 server aH
+   20bd E(ddref
+   20c5 E,ss
+   2287 l$ L
+   228c t$(L
+   2291 |$0H
+   22b6 %s: Error: Couldn't open %s
+   22d3 Usage: %s [<input_file>]
+   22ed That's number 2.  Keep going!
+   230b Halfway there!
+   231a Good work!  On to the next...
+   2338 Welcome to my fiendish little bomb. You have 6 phases with
+   2378 which to blow yourself up. Have a nice day!
+   23a8 Phase 1 defused. How about the next one?
+   23d8 So you got that one.  Try this one.
+   2400 Border relations with Canada have never been better.
+   2438 Wow! You've defused the secret stage!
+   245e flyers
+   24b0 maduiersnfotvbylSo you think you can stop the bomb with ctrl-c, do you?
+   24f8 Curses, you've found the secret phase!
+   2520 But finding it and solving it are quite different...
+   2558 Congratulations! You've defused the bomb!
+   2582 Well...
+   258a OK. :-)
+   2592 Invalid phase%s
+   25a4 BOOM!!!
+   25ac The bomb has blown up.
+   25c3 %d %d %d %d %d %d
+   25d5 Error: Premature EOF on stdin
+   25f3 GRADE_BOMB
+   25fe Error: Input line too long
+   2619 %d %d %s
+   2622 DrEvil
+   2629 greatwhite.ics.cs.cmu.edu
+   2643 angelshark.ics.cs.cmu.edu
+   265d makoshark.ics.cs.cmu.edu
+   2678 Program timed out after %d seconds
+   26a0 Error: HTTP request failed with error %d: %s
+   26d0 GET /%s/submitr.pl/?userid=%s&lab=%s&result=%s&submit=submit HTTP/1.0
+   2720 Error: Unable to connect to server %s
+   2748 %%%02X
+   274f %s %d %[a-zA-z ]
+   2760 changeme.ics.cs.cmu.edu
+   2779 AUTORESULT_STRING=%s
+   278f csapp
+   28d7 ;*3$"
+   3740 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04) 4.8.1
+   3769 GCC: (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+   41a0 /usr/include/x86_64-linux-gnu/bits
+   41c3 /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+   41ed /usr/include
+   41fb bomb.c
+   4205 stdio2.h
+   4211 stddef.h
+   421d types.h
+   4228 stdio.h
+   4233 libio.h
+   423e <built-in>
+   424c stdlib.h
+   4258 phases.h
+   4264 support.h
+   42e6 printf
+   42ed __off_t
+   42f5 _IO_read_ptr
+   4302 _chain
+   4309 size_t
+   4310 _shortbuf
+   431a _IO_buf_base
+   4327 long long unsigned int
+   433e read_line
+   4348 /usr0/home/droh/ics3/im/labs/bomblab/src
+   4371 long long int
+   437f phase_defused
+   438d _fileno
+   4395 _IO_read_end
+   43a2 _flags
+   43a9 _IO_buf_end
+   43b5 _cur_column
+   43c1 __printf_chk
+   43ce _old_offset
+   43da infile
+   43e1 initialize_bomb
+   43f1 _IO_marker
+   43fc stdin
+   4402 _IO_write_ptr
+   4410 _sbuf
+   4416 short unsigned int
+   4429 _IO_save_base
+   4437 GNU C 4.8.1 -mtune=generic -march=x86-64 -ggdb -O1 -fstack-protector
+   447c _lock
+   4482 _flags2
+   448a _mode
+   4490 __builtin_puts
+   449f stdout
+   44a6 sizetype
+   44af _IO_write_end
+   44bd _IO_lock_t
+   44c8 _IO_FILE
+   44d1 fopen
+   44d7 _pos
+   44dc _markers
+   44e5 unsigned char
+   44f3 short int
+   44fd _vtable_offset
+   450c exit
+   4511 bomb.c
+   4518 input
+   451e _next
+   4524 __off64_t
+   452e _IO_read_base
+   453c _IO_save_end
+   4549 __fmt
+   454f __pad1
+   4556 __pad2
+   455d __pad3
+   4564 __pad4
+   456b __pad5
+   4572 _unused2
+   457b argv
+   4580 phase_1
+   4588 phase_2
+   4590 phase_3
+   4598 phase_4
+   45a0 phase_5
+   45a8 phase_6
+   45b0 _IO_backup_base
+   45c0 argc
+   45c5 main
+   45ca _IO_write_base
+   4762 .symtab
+   476a .strtab
+   4772 .shstrtab
+   477c .interp
+   4784 .note.ABI-tag
+   4792 .note.gnu.build-id
+   47a5 .gnu.hash
+   47af .dynsym
+   47b7 .dynstr
+   47bf .gnu.version
+   47cc .gnu.version_r
+   47db .rela.dyn
+   47e5 .rela.plt
+   47ef .init
+   47f5 .text
+   47fb .fini
+   4801 .rodata
+   4809 .eh_frame_hdr
+   4817 .eh_frame
+   4821 .init_array
+   482d .fini_array
+   4839 .jcr
+   483e .dynamic
+   4847 .got
+   484c .got.plt
+   4855 .data
+   485b .bss
+   4860 .comment
+   4869 .debug_aranges
+   4878 .debug_info
+   4884 .debug_abbrev
+   4892 .debug_line
+   489e .debug_str
+   48a9 .debug_loc
+   6071 call_gmon_start
+   6081 crtstuff.c
+   608c __JCR_LIST__
+   6099 deregister_tm_clones
+   60ae register_tm_clones
+   60c1 __do_global_dtors_aux
+   60d7 completed.6976
+   60e6 __do_global_dtors_aux_fini_array_entry
+   610d frame_dummy
+   6119 __frame_dummy_init_array_entry
+   6138 bomb.c
+   613f phases.c
+   6148 array.3449
+   6153 support.c
+   615d sig_handler
+   6169 driverlib.c
+   6175 rio_readlineb
+   6183 __FRAME_END__
+   6191 __JCR_END__
+   619d __init_array_end
+   61ae _DYNAMIC
+   61b7 __init_array_start
+   61ca _GLOBAL_OFFSET_TABLE_
+   61e0 __libc_csu_fini
+   61f0 skip
+   61f5 getenv@@GLIBC_2.2.5
+   6209 phase_defused
+   621b __errno_location@@GLIBC_2.2.5
+   6239 _ITM_deregisterTMCloneTable
+   6255 stdout@@GLIBC_2.2.5
+   6269 data_start
+   6274 input_strings
+   6282 strcpy@@GLIBC_2.2.5
+   629a puts@@GLIBC_2.2.5
+   62ac stdin@@GLIBC_2.2.5
+   62bf write@@GLIBC_2.2.5
+   62d2 _edata
+   62e9 _fini
+   62ef __stack_chk_fail@@GLIBC_2.4
+   630b num_input_strings
+   631d phase_5
+   6325 initialize_bomb_solve
+   633b blank_line
+   6346 submitr
+   634e phase_3
+   6356 phase_1
+   635e invalid_phase
+   636c init_driver
+   6378 alarm@@GLIBC_2.2.5
+   638b close@@GLIBC_2.2.5
+   639e node3
+   63a4 read@@GLIBC_2.2.5
+   63b6 __libc_start_main@@GLIBC_2.2.5
+   63d5 fgets@@GLIBC_2.2.5
+   63e8 explode_bomb
+   63f5 node1
+   63fb __data_start
+   6408 signal@@GLIBC_2.2.5
+   641c gethostbyname@@GLIBC_2.2.5
+   6437 node5
+   643d __memmove_chk@@GLIBC_2.3.4
+   6458 __memcpy_chk@@GLIBC_2.3.4
+   6472 __gmon_start__
+   6481 strtol@@GLIBC_2.2.5
+   6495 fun7
+   649a __dso_handle
+   64a7 _IO_stdin_used
+   64ba host_table
+   64c5 func4
+   64ce string_length
+   64dc __libc_csu_init
+   64ec fflush@@GLIBC_2.2.5
+   6500 __isoc99_sscanf@@GLIBC_2.7
+   6523 _end
+   6528 _start
+   652f secret_phase
+   653c infile
+   6543 sigalrm_handler
+   6553 init_timeout
+   6560 __bss_start
+   656c main
+   6571 __printf_chk@@GLIBC_2.3.4
+   6597 read_line
+   65a5 strings_not_equal
+   65b7 phase_4
+   65bf fopen@@GLIBC_2.2.5
+   65d2 phase_6
+   65da scratch
+   65e2 _Jv_RegisterClasses
+   65f6 driver_post
+   6602 phase_2
+   660a exit@@GLIBC_2.2.5
+   661c bomb_id
+   6624 connect@@GLIBC_2.2.5
+   6639 __TMC_END__
+   6645 __fprintf_chk@@GLIBC_2.3.4
+   6660 _ITM_registerTMCloneTable
+   667a node2
+   6680 node4
+   6686 sleep@@GLIBC_2.2.5
+   6699 node6
+   669f _init
+   66a5 read_six_numbers
+   66ba initialize_bomb
+   66ca __ctype_b_loc@@GLIBC_2.3
+   66e3 stderr@@GLIBC_2.2.5
+   66f7 __sprintf_chk@@GLIBC_2.3.4
+   6712 socket@@GLIBC_2.2.5
