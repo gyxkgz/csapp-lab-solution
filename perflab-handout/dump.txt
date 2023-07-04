@@ -1,0 +1,3 @@
+S:smooth: tmp
+S:smooth: Current working version
+S:naive_smooth: Naive baseline implementation

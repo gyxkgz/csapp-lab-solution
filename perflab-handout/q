@@ -1,0 +1,6 @@
+R:naive_rotate: Naive baseline implementation
+R:rotate: Current working version
+R:rotate: tmp
+S:smooth4: unroll 4
+S:smooth: Current working version
+S:naive_smooth: Naive baseline implementation
